@@ -54,16 +54,16 @@ def add_scaled_columns(train, validate, test, scaler, columns_to_scale):
     new_column_names = [c + '_scaled' for c in columns_to_scale]
     scaler.fit(train[columns_to_scale])
     
-    train_scaled = pd.DataFrame(scaler.transform(train[columns_to_scale]), 
+    X_train_scaled = pd.DataFrame(scaler.transform(train[columns_to_scale]), 
                             columns=new_column_names, 
                             index=train.index)
     
-    validate_scaled = pd.DataFrame(scaler.transform(validate[columns_to_scale]), 
+    X_validate_scaled = pd.DataFrame(scaler.transform(validate[columns_to_scale]), 
                             columns=new_column_names, 
                             index=validate.index)
     
-    test_scaled = pd.DataFrame(scaler.transform(test[columns_to_scale]), 
+    X_test_scaled = pd.DataFrame(scaler.transform(test[columns_to_scale]), 
                             columns=new_column_names, 
                             index=test.index)
     
-    return train_scaled, validate_scaled, test_scaled 
+    return X_train_scaled, X_validate_scaled, X_test_scaled 
