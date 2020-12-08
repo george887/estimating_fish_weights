@@ -25,10 +25,33 @@ Create a machine learning algorithm to accurately estimate the weight of differe
 ## Initial Thoughts
 Find a way to calculate the area of a fish to help with model. Width will be the missing piece to get a volume estimation. 
 ### Hypothesis Testing
+<details>
+  <summary> Click to Expand </summary>
 > H<sub>0</sub>: There is not linear correlation between the height and weights of fish.
+
 > H<sub>a</sub>: There is a linear correlation between height and weight of fish.
 - Pearson Correlation Test
     - P-value less than alpha = .05 so we reject the null hypothesis
+
+ H<sub>0</sub>: There is not linear correlation between the width and weights of fish.
+
+> H<sub>a</sub>: There is a linear correlation between width and weight of fish.
+- Pearson Correlation Test
+    - P-value less than alpha = .05 so we reject the null hypothesis
+
+ H<sub>0</sub>: There is not linear correlation between the average lengths and weights of fish.
+
+> H<sub>a</sub>: There is a linear correlation between average lengths and weight of fish.
+- Pearson Correlation Test
+    - P-value less than alpha = .05 so we reject the null hypothesis
+
+ H<sub>0</sub>: There is not linear correlation between the height and weights of fish.
+
+> H<sub>a</sub>: There is a linear correlation between height and weight of fish.
+- Pearson Correlation Test
+    - P-value less than alpha = .05 so we reject the null hypothesis
+
+</details>
 
 ## Project Steps
 ### Acquire 
