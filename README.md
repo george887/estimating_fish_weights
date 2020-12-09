@@ -27,6 +27,7 @@ Find a way to calculate the area of a fish to help with model. Width will be the
 ### Hypothesis Testing
 <details>
   <summary> Click to Expand </summary>
+  
 > H<sub>0</sub>: There is not linear correlation between the height and weights of fish.
 
 > H<sub>a</sub>: There is a linear correlation between height and weight of fish.
