@@ -1,4 +1,4 @@
-# Estimating Fish Species Weights 
+# Estimating Fish Weights 
 ![image](https://user-images.githubusercontent.com/62911364/101485182-6881b600-3920-11eb-8134-eca13f44da32.png)
 
 ## Background
